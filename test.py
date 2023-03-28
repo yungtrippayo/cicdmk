@@ -3,7 +3,7 @@ import pytest
 
 @pytest.fixture
 def input_file(tmp_path):
-    data = "This is a test,"
+    data = "This is a test."
     file_path = tmp_path / "input.txt"
     with open(file_path, "w") as f:
         f.write(data)
